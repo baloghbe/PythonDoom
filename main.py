@@ -32,6 +32,7 @@ class Game:
         self.weapon = Weapon(self)
         self.sound = Sound(self)
         self.pathfinding = Pathfinding(self)
+        pygame.mixer.music.play(-1)
 
 
     def update(self):
